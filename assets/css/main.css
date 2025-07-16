@@ -1449,7 +1449,7 @@ section,
 
 .about .icon-boxes .col-md-6:nth-child(2) .icon-box,
 .about .icon-boxes .col-md-6:nth-child(4) .icon-box {
-  margin-top: -40px;
+  margin-top: 0px;
 }
 
 @media (max-width: 768px) {
@@ -3605,4 +3605,11 @@ section,
     font-size: 2rem;
     text-align: center;
   }
+}
+
+/* Clase para aplicar la fuente FuentePsicologa a textos específicos */
+.fuente-psicologa {
+  font-family: 'FuentePsicologa', var(--heading-font);
+  font-weight: 400;
+  font-size: 1.5rem;
 }
