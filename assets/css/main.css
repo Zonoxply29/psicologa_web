@@ -976,6 +976,7 @@ section,
 }
 
 .section-title p {
+  font-style: italic;
   margin-bottom: 0;
   font-size: 16px;
   line-height: 1.6;
@@ -1106,7 +1107,13 @@ section,
     font-size: 15px;
   }
   #cursos .section-title h2 {
+    font-size: 11px;
+  }
+  #pricing .section-title h2 {
     font-size: 14px;
+  }
+  #features .section-title h2 {
+    font-size: 16px;
   }
   .section-title h2:before,
   .section-title h2:after {
