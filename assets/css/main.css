@@ -224,7 +224,6 @@ h6 {
   white-space: nowrap;
   font-weight: 500;
   letter-spacing: 0.5px;
-  text-transform: uppercase;
   min-width: fit-content;
 }
 
@@ -447,10 +446,6 @@ h6 {
     line-height: 0;
     margin-left: 5px;
     transition: 0.3s;
-  }
-
-  .navmenu li:last-child a {
-    padding-right: 0;
   }
 
   .navmenu li:hover>a,
@@ -3620,3 +3615,21 @@ section,
   font-weight: 400;
   font-size: 1.5rem;
 }
+/*Estilos para redes sociales en contactanos*/
+.social-links a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      transition: all 0.3s ease;
+    }
+    
+    .social-links a:hover {
+      transform: scale(1.1);
+      opacity: 0.8;
+    }
