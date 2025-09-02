@@ -3633,3 +3633,14 @@ section,
       transform: scale(1.1);
       opacity: 0.8;
     }
+.team-member .position {
+  color: #666;
+  font-style: italic;
+  font-size: 14px;
+}
+
+.team-member .description {
+  margin-top: 10px;
+  font-size: 15px;
+  line-height: 1.5;
+}
