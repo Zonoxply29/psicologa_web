@@ -3644,3 +3644,62 @@ section,
   font-size: 15px;
   line-height: 1.5;
 }
+
+/* Estilos específicos para redes sociales en sección About */
+.about .social-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+.about .social-links a:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+/* Colores específicos para cada red social en About */
+.about .social-links a.facebook {
+  background-color: #3b5998;
+}
+
+.about .social-links a.instagram {
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+}
+
+.about .social-links a.tiktok {
+  background-color: #000000;
+}
+
+/* Responsive design para iconos de redes sociales en About */
+@media (max-width: 768px) {
+  .about .social-links {
+    justify-content: center !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .about .social-links {
+    justify-content: center !important;
+  }
+  
+  .about .social-links a {
+    width: 35px;
+    height: 35px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 400px) {
+  .about .social-links a {
+    width: 32px;
+    height: 32px;
+    font-size: 14px;
+  }
+}
