@@ -227,6 +227,17 @@ h6 {
   min-width: fit-content;
 }
 
+/* Ajustes específicos para pantallas de 1200px a 1400px */
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .header .logo h1 {
+    font-size: 1rem;
+  }
+  
+  .header .logo img {
+    max-height: 70px;
+  }
+}
+
 /* Ensure proper spacing between elements */
 @media (min-width: 1201px) {
   .header .container-fluid {
@@ -1880,6 +1891,24 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 50%);
   font-size: 32px;
   font-weight: 400;
+}
+
+/* Estilos para texto de costo personalizado */
+.pricing .pricing-text {
+  margin-bottom: 25px;
+}
+
+.pricing .pricing-text .cost-info {
+  font-size: 24px;
+  color: var(--accent-color);
+  font-weight: 600;
+  font-family: var(--heading-font);
+  text-align: center;
+  margin: 0;
+  padding: 15px 10px;
+  background: color-mix(in srgb, var(--accent-color), transparent 95%);
+  border-radius: 8px;
+  border: 2px solid color-mix(in srgb, var(--accent-color), transparent 80%);
 }
 
 .pricing ul {
