@@ -68,4 +68,4 @@ document.addEventListener('DOMContentLoaded', function() {
     iniciarConversionDePrecio('precio-cursos', parseFloat(document.getElementById('precio-cursos').getAttribute('data-precio-usd')));
   });
 
-  //FINAL DE CODIGO
+  // NO SE ESTA OCUPANDO PORQUE NO SE MUESTRA DIVISAS EN EL SITIO NI DINERO
